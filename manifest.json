@@ -1,0 +1,10 @@
+{
+    "name": "Notificaciones - IPUE Alcalá de henares",
+    "short_name": "notificapp",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "scope": "/notificapp",
+    "start_url": "/notificapp",
+    "splash_pages": null  
+}
