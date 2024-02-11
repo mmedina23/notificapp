@@ -1,0 +1,18 @@
+{
+    "title": "Título del anuncio (required, max. 64 characters)",
+    "type": "Tipo de anuncio [NOTICE|INFORMATIVE|LINK|INTERACTIVE] (required)",
+    "short-desc": "Descripción corta (optional, max. 128 characters)",
+    "text-content": "Contenido extendido del anuncio (optional, min. 128 characters)",
+    "links": [
+        {
+            "alt": "Nombre de recurso (required, max. 64 characters)",
+            "src": "enlace del recurso (required)"
+        }
+    ],
+    "claim": {
+        "iss": "Quién reportó el anuncio (required)",
+        "exp": "Fecha de expiración (optional)",
+        "nbf": "No antes de tiempo (optional)",
+        "iat": "Hora a la que se emitió el anuncio (required)"
+    }
+}
