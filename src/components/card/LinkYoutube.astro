@@ -1,0 +1,21 @@
+---
+interface Props {
+	title: string;
+	ytCode: string;
+}
+
+const { title, ytCode } = Astro.props;
+const src = "https://www.youtube.com/watch?v=" + ytCode;
+const imgSrc = "https://img.youtube.com/vi/" + ytCode + "/0.jpg";
+---
+<div class="col-lg-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{title}</h5>
+
+            <a href={src}>
+                <img src={imgSrc} class="d-block w-100">
+            </a>
+        </div>
+    </div>
+</div>

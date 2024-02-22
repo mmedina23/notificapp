@@ -1,0 +1,26 @@
+---
+import Layout               from '../layouts/Layout.astro';
+import Notice               from '../components/card/Notice.astro';
+import Informative          from '../components/card/Informative.astro';
+import LinkYoutube          from '../components/card/LinkYoutube.astro';
+import InteractiveWhatsapp  from '../components/card/InteractiveWhatsapp.astro';
+---
+
+<Layout title="notificapp" summary="">
+	<main class="main">
+
+        <section class="section">
+            <div class="row">
+
+                <Notice title="Example Card" content="This is an example page with no contrnt. You can use it as a starter for your custom pages."></Notice>
+
+                <Informative title="Example Card" content=""></Informative>
+
+                <LinkYoutube title="Medidas y Profundidad" ytCode="Xv4-hGoBLDs"></LinkYoutube>
+
+                <InteractiveWhatsapp title="Clases de musica" content="Aprende a tocar instrumentos musicales" href=""></InteractiveWhatsapp>
+            </div>
+        </section>
+
+	</main>
+</Layout>

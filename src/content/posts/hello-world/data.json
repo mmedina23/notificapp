@@ -1,0 +1,26 @@
+{
+    "title": "Bienvenido",
+    "type": "NOTICE",
+    "short-desc": "Esta es una nota de bienvenida al sitio de anuncios",
+    "text-content": "Estas cordialmente invitado a seguir las noticias y anuncios que comparten otras personas",
+    "links": [
+        {
+            "alt": "Flores rojas",
+            "src": "./slides-1.png"
+        },
+        {
+            "alt": "Flores amarillas",
+            "src": "./slides-2.png"
+        },
+        {
+            "alt": "Flores rosadas",
+            "src": "./slides-3.png"
+        }
+    ],
+    "claim": {
+        "iss": "anonimo",
+        "exp": "",
+        "nbf": "",
+        "iat": "1708615906"
+    }
+}
