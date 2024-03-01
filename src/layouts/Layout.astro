@@ -22,12 +22,12 @@ const { title, summary } = Astro.props;
     	<title>{title}</title>
 		
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="/images/favicon.png" sizes="any">
+		<link rel="icon" type="image/png" href="./images/favicon.png" sizes="any">
 
 		<link rel="manifest" href="./manifest.json">
 
 		<!-- Vendor CSS Files -->
-		<link href="/vendor/niceadmin/style.css" rel="stylesheet">
+		<link href="./vendor/niceadmin/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<Header />
@@ -35,11 +35,11 @@ const { title, summary } = Astro.props;
 		<Footer />
 
 		<!-- JS Files-->
-		<script is:inline src="/scripts/main.js"></script>
+		<script is:inline src="./scripts/main.js"></script>
 
 		<!-- Vendors -->
-		<script is:inline src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-		<script is:inline src="/vendor/niceadmin/main.js"></script>
+		<script is:inline src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script is:inline src="./vendor/niceadmin/main.js"></script>
 
 	</body>
 </html>
