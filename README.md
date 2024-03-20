@@ -19,10 +19,11 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
+![GitHub Actions Workflow Status][workflow-shield]
+[![License][license-shield]][license-url]  
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
 
 
 
@@ -30,13 +31,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/mmedina23/notificapp">
-    <img src="static/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/images/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">notificapp</h3>
 
   <p align="center">
-    project_short_description
+    portal of notifications and notices of the IPUE church
     <br />
     <a href="https://github.com/mmedina23/notificapp"><strong>Explore the docs »</strong></a>
     <br />
@@ -84,7 +85,7 @@
 
 [![Notificapp mainstream Screen Shot][product-screenshot]](https://mmedina23.github.io/notificapp/)
 
-`project_description`
+Portal of notifications and notices of the IPUE church in alcalá de henares
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,6 +94,7 @@
 ### Built With
 
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]  
+[![Astrojs][astro.build]][astro-url]  
 [![Github pages][pages.github.com]][Github-pages-url]  
 
 
@@ -152,10 +154,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
   - [x] Esqueleto
   - [ ] Aviso legal en Footer
   - [ ] Diseño de grilla
-- [ ] Diseño de tarjetas
+- [x] Diseño de tarjetas
   - [x] Texto simple
-  - [ ] Con imagen de banner
-  - [ ] Video enlazado
+  - [x] Con imagen de banner
+  - [x] Video enlazado
 - [ ] Interactividad en javascript
   - [ ] Cargar tarjetas en pagina principal
   - [ ] Service worker, manejo de notificaciones y localstorage 
@@ -225,6 +227,7 @@ Project Link: [https://github.com/mmedina23/notificapp](https://github.com/mmedi
 <!-- shields header -->
 [contributors-shield]: https://img.shields.io/github/contributors/mmedina23/notificapp.svg?style=for-the-badge
 [contributors-url]: https://github.com/mmedina23/notificapp/graphs/contributors
+[workflow-shield]: https://img.shields.io/github/actions/workflow/status/mmedina23/notificapp/deploy.yml?style=for-the-badge
 [forks-shield]: https://img.shields.io/github/forks/mmedina23/notificapp.svg?style=for-the-badge
 [forks-url]: https://github.com/mmedina23/notificapp/network/members
 [stars-shield]: https://img.shields.io/github/stars/mmedina23/notificapp.svg?style=for-the-badge
@@ -236,6 +239,8 @@ Project Link: [https://github.com/mmedina23/notificapp](https://github.com/mmedi
 <!--  -->
 [product-screenshot]: images/screenshot.png
 <!-- shields technologies -->
+[Astro.build]: https://img.shields.io/badge/astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white
+[Astro-url]: https://astro.build
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [pages.github.com]: https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white
