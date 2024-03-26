@@ -1,0 +1,42 @@
+name: ✉️Post Request
+description: Request a new announcement
+labels: ["announcement"]
+title: "[POST]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this request!
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. template
+    validations:
+      required: false
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What type are you show?
+      options:
+        - NOTICE
+        - INFORMATIVE
+        - LINK
+        - INTERACTIVE
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: shortDesc
+    attributes:
+      label: Short description
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: markdown
+  - type: textarea
+    id: textContent
+    attributes:
+      label: Text content
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: markdown
